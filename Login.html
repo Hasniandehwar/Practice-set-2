@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div class="nav-links">
+                <a href="#" class="nav-Pages">Home</a>
+                <a href="#" class="nav-Pages">About Us</a>
+                <a href="#" class="nav-Pages">Contact Us</a>
+            </div>
+            <button class="register-btn">Register</button>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="Conta">
+            <form action="login.php" method="POST">
+                <input type="text" name="username" placeholder="Username" class="Form" required>
+                <input type="password" name="password" placeholder="Password" class="Form" required><br>
+                <button type="submit" id="login-btn">LOGIN</button>
+                <p>
+                    <input type="checkbox" id="remember-me"> 
+                    <label for="remember-me">Remember me</label>
+                    <a href="#" style="text-decoration: none; color : royalblue;">Forgot password?</a>
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
